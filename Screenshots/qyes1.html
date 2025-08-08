@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stu Document</title>
+    <style>
+        .form{
+            margin-top: 8rem;
+            margin-left: 6rem;
+            margin-right: 8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="submit" method="GET"></form>
+        <h1>Course Enrollment form</h1>
+        <div>
+            <h3>Section 1: personal information section</h3>
+            
+                <div>
+                    <label for="name">Full name</label>
+                    <input type="text" name="name" id="name" required>
+                <br>
+                <br>
+                </div>
+                <div>
+                    <label for="stuid">Student ID</label>
+                    <input type="text" name="stuid" id="stuid" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="stuid" id="stuid" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="year">Year of study</label><br>
+
+                    <label for="1st year">1st year</label>
+                    <input type="radio" name="year" id="year"><br>
+
+                    <label for="2nd year">2nd year</label>
+                    <input type="radio" name="year" id="year"><br>
+
+                    <label for="3rd year">3rd year</label>
+                    <input type="radio" name="year" id="year"><br>
+
+                    <label for="Final year">Final year</label>
+                    <input type="radio" name="year" id="year"><br>
+
+                </div>
+        </div>
+        <hr>
+        <div>
+            <h3>Section 2: Academic Information section</h3>
+            <label for="dept">Department</label>
+            <select name="dept" id="dept">
+                <option value="cse" >CSE</option>
+                <option value="ece" >ECE</option>
+                <option value="mech" >MECH</option>
+                <option value="civil" >CIVIL</option>
+            </select><br>
+            <br>
+
+            <label for="courses">Courses</label><br>
+            <input type="checkbox" multiple>
+            <label for="course">Web technology</label><br>
+            
+            <input type="checkbox" multiple>
+            <label for="course">Ethical hacking</label><br>
+            
+            <input type="checkbox" multiple>
+            <label for="course">Python programming</label><br>
+            <br>
+
+            <textarea name="txt" id="txt">"Hold Ctrl (or Cmd) to select multiple courses."</textarea>
+        </div>
+        <hr>
+        
+        <div>
+            <h3>Section 3: Additional information </h3>
+
+            <label for="additional">Statement of purpose</label><br>
+            <textarea name="additional" id="additional">Statement of purpose</textarea><br>
+            <br>
+            
+
+            <label for="stuphoto">Upload Student ID proof</label><br>
+            <input type="file" name="stuphoto" id="stuphoto"><br>
+            <br>
+            <br>
+
+            <label for="mode">Preferred mode of learning</label><br>
+            <input type="radio" name="mode" id="mode">
+            <label for="mode">Online</label><br>
+
+            <input type="radio" name="mode" id="mode">
+            <label for="mode">Offline</label><br>
+            <br>
+            
+            <hr>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">Terms and conditions</label><br>
+            <br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <br>
+
+
+        </div>
+        <hr>
+
+
+
+        </form>
+    </div>
+</body>
+</html>
